@@ -4,8 +4,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  position: fixed;\n  padding: 0;\n  margin: 0;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 10000;\n'], ['\n  position: fixed;\n  padding: 0;\n  margin: 0;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 10000;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  display: flex;\n  width: 100%;\n  height: 100%;\n  font-size: 1em;\n  align-items: ', ';\n  font-family: ', ' Arial,\n    sans-serif, Helvetica;\n'], ['\n  display: flex;\n  width: 100%;\n  height: 100%;\n  font-size: 1em;\n  align-items: ', ';\n  font-family: ', ' Arial,\n    sans-serif, Helvetica;\n']),
+var _templateObject = _taggedTemplateLiteral(['\n  zoom: 1.15;\n  position: fixed;\n  padding: 0;\n  margin: 0;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 10000;\n'], ['\n  zoom: 1.15;\n  position: fixed;\n  padding: 0;\n  margin: 0;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 10000;\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  zoom: 1.15;\n  display: flex;\n  width: 100%;\n  height: 100%;\n  font-size: 1em;\n  align-items: ', ';\n  font-family: ', ' Arial,\n    sans-serif, Helvetica;\n'], ['\n  zoom: 1.15;\n  display: flex;\n  width: 100%;\n  height: 100%;\n  font-size: 1em;\n  align-items: ', ';\n  font-family: ', ' Arial,\n    sans-serif, Helvetica;\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n  ', ';\n'], ['\n  ', ';\n']);
 
 var _react = require('react');
