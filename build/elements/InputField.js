@@ -103,7 +103,8 @@ var InputField = function (_React$Component) {
             ref: function ref(input) {
               if (input) _this2.inputCoords = input.getBoundingClientRect();
             },
-            readOnly: true
+            readOnly: true,
+            'disable-osk': 'true'
           }),
           buttonContent && _react2.default.createElement(
             'button',
