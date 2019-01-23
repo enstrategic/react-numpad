@@ -76,6 +76,7 @@ var InputField = function (_React$Component) {
             value: inputValue ? displayRule(inputValue, dateFormat) : inputValue,
             disabled: disabled,
             readOnly: true,
+            'disable-osk': true,
             onClick: function onClick() {
               showKeyPad(_this2.inputCoords);
             },
