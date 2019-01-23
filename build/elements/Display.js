@@ -35,7 +35,9 @@ var Backspace = _styledComponents2.default.button(_templateObject2, function (pr
   return props.theme.color.primary;
 });
 
-var Input = _styledComponents2.default.input(_templateObject3);
+var Input = _styledComponents2.default.input.attrs({
+  'disable-osk': 'true'
+})(_templateObject3);
 var Display = _styledComponents2.default.div(_templateObject4);
 
 var DisplayWrapper = function DisplayWrapper(_ref) {
