@@ -49,7 +49,7 @@ var DisplayWrapper = function DisplayWrapper(_ref) {
     _react2.default.createElement(
       Display,
       null,
-      _react2.default.createElement(Input, { value: displayRule(value, dateFormat), readOnly: true, autoFocus: true })
+      _react2.default.createElement(Input, { value: displayRule(value, dateFormat), readOnly: true, autoFocus: true, 'disable-osk': 'true' })
     ),
     _react2.default.createElement(
       Backspace,
